@@ -1,0 +1,88 @@
+/*
+ * Please see the included README.md file for license terms and conditions.
+ */
+
+
+/* This file is completely optional and not required. */
+/* Note the reference that includes it in the index.html file. */
+
+
+/* Disable certain interactions on touch devices */
+/* SOURCE: https://github.com/ftlabs/fastclick/blob/master/examples/input.html */
+/* LICENSE: https://github.com/ftlabs/fastclick/blob/master/LICENSE */
+body {
+    -webkit-touch-callout: none ;
+    -webkit-text-size-adjust: none ; -ms-text-size-adjust: none ;
+    -webkit-user-select: none ; -moz-user-select: none ; -ms-user-select: none ; user-select: none ;
+    -webkit-highlight: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) ;
+    -webkit-tap-highlight-color: transparent ;      /* For some Androids */
+}
+
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+html {
+    -ms-touch-action: pan-x ;
+}
+
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+body {
+    -ms-touch-action: pan-y ;
+    -ms-content-zooming: none ;
+}
+
+/* allow copy-paste */
+input, textarea  {
+    -webkit-user-select: text ; -moz-user-select: text ; -ms-user-select: text ; user-select: text ;
+}
+
+body {
+    /* margin: 0.5rem ; */
+    background: white ;
+    color: black ;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+
+.tarefas{
+    margin: 0;
+    padding: 0;
+}
+
+.tarefas li{
+    width: 100%;
+    float: left;
+    background: #FFF;
+    padding: 15px;
+}
+
+
+.form-login{
+    padding: 10px;
+    width: 100%;
+    float: left;
+}
+
+.form-login input{
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 0;
+}
+
+.txt-align{
+    text-align: center;
+}
+
+.btn{
+    border: 0;
+    padding: 15px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn-logar{
+    background: #40d47e;
+    color: #FFF;
+}
